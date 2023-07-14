@@ -1,0 +1,86 @@
+<html>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            section{
+           
+                height: 800px;
+            display: grid;
+            background-color: yellow;
+            row-gap: 5px;
+            column-gap:5px ;
+       
+            grid-template-columns:1fr 1fr 1fr 
+            }
+        .box {
+         
+            background-color: red;
+          
+        }
+            #header{
+           
+            font-size: 50px;
+            color: white;
+            text-align: center;
+            grid-column-start:1 ;
+            grid-column-end:4 ;
+        }
+        #section{
+            
+            grid-row-start: 2;
+            grid-row-end: 6;
+
+        }
+        #item-3{
+            grid-column-start: 2;
+            grid-column-end: 4;
+            grid-row-start:2;
+            grid-row-end:4;
+        }
+
+            #item-4 {
+                grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 4;
+            grid-row-end: 6;
+     
+            
+
+            }
+            #item-5 {
+                grid-column-start: 3;
+                grid-column-end: 4;    
+                grid-row-start: 4;
+            grid-row-end: 6;
+            }
+        
+        #footer{
+            font-size: 50px;
+            color: white;
+            text-align: center;
+            grid-column-start:1 ;
+            grid-column-end:4 ;
+        }
+        
+
+        </style>
+    </head>
+    <body>
+        <section>
+
+<div class="box" id="header">header</div>
+<div class="box" id="section">section</div>
+<div class="box" id="item-3">item-3</div>
+<div class="box" id="item-4"></div>
+<div class="box" id="item-5"></div>
+
+<div class="box" id="footer">footer</div>
+
+
+</section>
+    </body>
+    </html>
