@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+    <style>
+        /* div{
+            height: 600px;
+            margin: 10px;
+        } */
+        .background-color {
+            background-color: red;
+       
+        }
+        .background-img{
+            background-image: url(https://picsum.photos/id/637/200/300);
+        }
+        .background-attachment{
+            background-image: url(https://picsum.photos/id/237/200/300);
+            background-attachment: fixed;
+        }
+        .background-repeat{
+            background-image: url(https://picsum.photos/id/237/200/300);
+            background-repeat: no-repeat;
+            background-repeat: repeat-y;
+            background-repeat: repeat-x;
+
+        }
+        .background-position{
+            background-image: url(https://picsum.photos/id/237/200/300);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-position: left;
+            background-position: right;
+            background-position: 200px;
+        }
+        .background-clip{
+            background-image: url(https://picsum.photos/id/237/200/300);
+            /* background-repeat: no-repeat; */
+            border: dashed 20px ;
+            /* padding: 50px; */
+            /* background-clip: content-box; */
+            /* background-clip: padding-box; */
+        }
+        .background-size{
+            border: dashed 20px ;
+            background-clip: border-box;
+            background-image: url(https://picsum.photos/id/237/1000/500);
+            /* background-repeat: no-repeat; */
+            background-size: contain;
+            background-size: cover;
+        }
+        .background{
+            /* background: url(); */
+        }
+        .background-flag{
+            background: linear-gradient( orange,white,green);
+        }
+        .demo{
+            height: 400px;
+            background: linear-gradient(orange,green);
+            background-image: url(https://picsum.photos/id/237/1000/500);
+        }
+        /* .box{
+        
+        } */
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Logo</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="./website.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./bg.html">About</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled">Disabled</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                  <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+
+    <ul>
+        <li>background-color</li>
+        <li>background-img</li>
+        <li>background-attachment</li>
+        <li>background-repeat</li>
+        <li>background-position</li>
+        <li>background-size</li>
+        <li>background-clip</li>
+        <li>background</li>
+        <li>background-flag</li>
+    </ul>
+
+    <div class="background-color">background-color </div>
+    <div class="background-img">
+        background-img
+    </div>
+    <div class="background-attachment">background-attachment</div>
+    <div class="background-repeat">background-repeaT</div>
+    <div class="background-position">background-position</div>
+    <div class="background-clip">background-clip</div>
+    <div class="background-size">background-size</div>
+    <div class="background">background</div>
+    <div class="background-flag">background-flag</div>
+
+    <div class="demo">
+        <div class="box"></div>
+
+    </div>
+    <div></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
